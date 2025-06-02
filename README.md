@@ -1,3 +1,3 @@
-Voici quelques codes
+Voici quelques codes que j'ai pu réaliser
 
-Malheureusement il y en a beaucoup qu'il m'est impossible de récuperer.
+Malheureusement il y en a beaucoup qu'il m'est impossible de récuperer....
