@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int age;
+
+	printf("Entrer l'âge de l'enfant\n");
+	scanf("%d" , &age);
+	
+	switch(age)
+	{
+		case (7):
+			printf("Catégorie Poussin\n");
+		case (8):
+			printf("Catégorie Poussin\n");
+			break;
+		case (9):
+			printf("Catégorie Pupille\n");
+		case (10):
+			printf("Catégorie Pupille\n");
+			break;
+		case (11):
+			printf("Catégorie Benjamin\n");
+		case (12):
+			printf("Catégorie Benjamin\n");
+			break;
+		case (13):
+			printf("Catégorie Minime\n");
+		case (14):
+			printf("Catégorie Minime\n");
+			break;
+		case (15):
+			printf("Catégorie Cadet\n");
+		case (16):
+			printf("Catégorie Cadet\n");
+			break;
+		default :
+			printf("HORS CATEGORIE");
+	}
+}
+

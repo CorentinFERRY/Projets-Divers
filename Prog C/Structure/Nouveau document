@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "Def.h"
+
+int main()
+{
+	eleve test;
+	printf("Entrer le Nom de l'élève :\n");
+	scanf("%s", test.Nom);
+	printf("Entrer la note de l'élève :\n");
+	scanf("%f", &test.Note);
+
+	printf("L'élève %s à obtenu la note %g\n",test.Nom,test.Note);
+	
+	return 0;
+
+}

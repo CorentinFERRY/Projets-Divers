@@ -1,0 +1,120 @@
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    position: absolute;
+    z-index:2;
+}
+
+header img{
+    display: flex;
+    width: 225px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+header p{
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+}
+main{
+    position: relative;
+}
+
+.icone img{
+    width: 3%;
+}
+.partiegauche{
+    
+    position: absolute;
+    z-index: 1;
+    background-color: #6cabe2;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 370px;
+    width: 30%;
+    height: auto;
+    text-align: justify;
+    
+}
+.competences p{
+    font-size: 0.7em;
+    
+}
+
+.partiedroite {
+    position:relative;
+    margin: auto;
+    left:20%;
+    padding-top:370px ;
+    padding-bottom: 50px;
+    width: 60%;
+    height: auto;
+
+}
+
+.experience,
+.formation {
+    border-left: black 3px solid;
+    border-collapse: collapse;
+    padding-left: 20px;
+}
+.experience h3,
+.formation h3{
+    margin: 0%;
+    padding: 0%;
+}
+
+.experience p,
+.formation p{
+    margin: 0%;
+    padding: 0%;
+}
+
+h4{
+    font-style: italic;
+    font-size: 0.8em;
+    margin: 0%;
+    padding: 0%;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+@media screen and (max-width: 996px) {  /* permet une meilleur lecture sur petit ecran / telephone */
+    header img{
+        display: none;
+    }
+
+    header{
+        position: relative;
+    };
+    main{
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .partiedroite{
+        position: relative;
+        margin:auto;
+        padding:0;
+        left: 0%;
+        width: 80%;
+    }
+    .partiegauche{
+        position: relative;
+        margin:auto;
+        padding:0;
+        background-color: white;
+        width: 80%;
+    }
+    
+}

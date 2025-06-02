@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(void)
+{
+	float Rayon;	/* Variable du rayon en nombre réel. */
+	float Circonf;   /* Variable de la circonférence du cercle en nombre réel. */
+	float Aire;	/* Variable de l'aire du cercle en nombre réel. */
+	const float Pi = 3.14159;
+	
+	/* Saisie du Rayon */
+
+	printf("Ce programme calcule la circonférence et la surface d'un cercle\n");
+	printf("Entrer la valeur du rayon\n");
+	scanf("%f", &Rayon);
+
+	/* Calculs */
+
+	Circonf = 2*Pi*Rayon;
+	Aire = Pi*(Rayon*Rayon);
+	
+	/* affichage des resultats */
+
+	printf("Circonférence : %.2f\n", Circonf);     /* %.nf -> n = nombre de chiffres après la virgule */
+	printf("Surface : %.2f\n", Aire);
+
+	return 0;
+}

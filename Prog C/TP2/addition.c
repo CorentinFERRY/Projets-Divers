@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int x,y;
+	printf("Entrer le premier nombre : \n");
+	scanf("%d" , &x);
+	printf("Entrer le deuxieme nombre : \n");
+	scanf("%d" , &y);
+	printf("%d + %d = %d\n",x,y,x+y);
+	return 0;
+} 

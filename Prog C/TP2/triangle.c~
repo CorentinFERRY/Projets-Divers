@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(void)
+{
+	float base ;			/* declaration de la base */
+	float hauteur ;			/* declaration de la hauteur */
+	float aire;			/* ceci sera le resultat de ce magnifique prog*/
+	
+
+	/* saisie de la base et hauteur ok .|. */
+
+	printf( "ce programme fait un calcul cool d'un triangle\n" );
+	printf("entrer base\n")	;
+		scanf("%f" &base);
+	printf("entrer hauteur\n");
+		scanf("%f" &hauteur);
+
+	/* les calcules */
+
+	aire = (base*hauteur)/2;
+
+	/* les resultat */
+
+	printf("l'aire du triangle est de:%.3f\n" , aire ;		/* resultat avec 3 chiffre apres la virgule */
+	return 0;
+}
+	
+	
+	
